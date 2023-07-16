@@ -1,38 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Color Palette Picker
+
+This project is a color palette picker that allows users to select colors from
+predefined palettes and copy their corresponding color codes. It supports
+keyboard navigation for easy accessibility.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow the instructions below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Prerequisites
+
+Make sure you have the following software installed on your system:
+
+- Node.js (version X.X.X or higher)
+- NPM (version X.X.X or higher)
+
+### Installation
+
+1. Clone the repository:
+
+```
+    git clone https://github.com/jayantrohila57/color-palette-picker.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd color-palette-picker
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Install the dependencies:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+ npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Usage
 
-## Learn More
+To start the development server and view the application, run the following
+command: `npm start`
 
-To learn more about Next.js, take a look at the following resources:
+This will start the development server and provide you with a URL where you can
+access the application in your web browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Color palettes: The application displays a set of predefined color palettes.
+- Keyboard navigation: Users can navigate through the color palettes using arrow
+  keys on their keyboard.
+- Color code copy: Users can copy the color codes of the selected colors to
+  their clipboard.
+- Visual feedback: The application provides visual feedback when a color button
+  is clicked or a color code is copied.
 
-## Deploy on Vercel
+### Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework.
+- Clipboard API: An API that provides access to the user's clipboard for reading
+  and writing.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributing
+
+Contributions to this project are welcome. Here are a few ways you can
+contribute:
+
+- Report bugs or suggest features by opening an issue.
+- Submit a pull request to address an existing issue or contribute a new
+  feature.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
